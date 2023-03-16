@@ -4,8 +4,6 @@ import org.springframework.data.jpa.repository.support.JpaRepositoryImplementati
 
 import com.rodrigo.course.entities.User;
 
-
-
-public interface UserRepository extends JpaRepositoryImplementation<User,Long>{
+public interface UserRepository extends JpaRepositoryImplementation<User, Long> {
 
 }
