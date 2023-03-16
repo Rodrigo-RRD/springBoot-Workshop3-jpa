@@ -3,9 +3,20 @@ package com.rodrigo.course.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class User implements Serializable{
+import jakarta.persistence.Entity;//COM O NOVO SPRING AGORA É O FINAL JAKARTA
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+//user é a identidade do modelo de dominio
 
+@Entity
+@Table(name = "tb_user")
+public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private String email;
