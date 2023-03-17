@@ -2,6 +2,7 @@ package com.rodrigo.course.entities;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.rodrigo.course.entities.pk.OrderItemPK;
 
 import jakarta.persistence.EmbeddedId;
@@ -14,7 +15,7 @@ public class OrderItem implements Serializable {
 
 
 	@EmbeddedId
-	private OrderItemPK id;
+	private OrderItemPK id = new OrderItemPK();
 
 	private Integer quantity;
 	private Double price;
@@ -33,7 +34,7 @@ public class OrderItem implements Serializable {
 	public Order getOrder() {
 		return id.getOrder();
 	}
-
+	@JsonIgnore
 	public void setOrder(Order order) {
 		id.setOrder(order);
 	}
