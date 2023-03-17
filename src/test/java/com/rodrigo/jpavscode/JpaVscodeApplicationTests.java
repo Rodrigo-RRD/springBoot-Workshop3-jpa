@@ -1,10 +1,10 @@
-package com.rodrigo.course;
+package com.rodrigo.jpavscode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CourseApplicationTests {
+class JpaVscodeApplicationTests {
 
 	@Test
 	void contextLoads() {
