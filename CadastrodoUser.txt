@@ -1,0 +1,17 @@
+
+*Verificar se esta com a URL certa*
+Ex: http://localhost:8080/users
+
+
+1 - Copia e cola o codigo abaixo na categoria post do postamn
+2 - Selecione raw
+3 - Tipo de texto onde tem uma seta para baixo coloque em formato json.
+4 - Olhar em Headers se em context-Type nas suas opções demarcadas esta como "application/json"
+5 - Quando der um 200 e ok ou 201 quer dizer que esta tudo certo
+
+{
+ "name": "Bob Brown",
+ "email": "bob@gmail.com",
+ "phone": "977557755",
+ "password": "123456"
+}  
