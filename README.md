@@ -10,7 +10,7 @@ Projeto java para acesso e utilização do banco de dados.
 <h2>Introdução</2>
 <h5>A copia do arquivo no commit Exception {handling - update}  vai estar com os recursos do banco de dados local - H2</h5>
 
-
+![ezgif com-crop (1) (1) (1)](https://user-images.githubusercontent.com/116466164/226465166-e0342712-9342-42e3-a5ce-4bf4b3a1bde8.gif)
 
 <h2>Pré-Requisitos</h2>
 <h5>Utilizar IDE que preferir</h5>
