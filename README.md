@@ -11,10 +11,10 @@ Projeto java para acesso e utilização do banco de dados.
 
 <h2>Pré-Requisitos</h2>
 <h5>Utilizar IDE que preferir</h5>
-<p><h5>* Instalar o PostgreSQL e o Heroku CLI se for querer na nuvem</p></h5>
-<p>* Instalar as dependencias de acordo com o arquivo pom e sua versao java 17</p>
+<p><h5>* Instalar o PostgreSQL e o Heroku CLI se for querer na nuvem.</p></h5>
+<p>* Instalar as dependencias de acordo com o arquivo pom e sua versao java 17.</p>
 <p>* Postman ou outra plataforma para visualizar o JSON e realizar seus recursos.</p>
-<p>* baixar o aquivo do commit <a href="https://github.com/Rodrigo-RRD/springBoot-Workshop3-jpa/tree/8c166bd39de1c0d00bfe4ac22cca97306ea2d009">{Exception handling - update}</a>, para acessar localmente.:
+<p>* baixar o aquivo do commit <a href="https://github.com/Rodrigo-RRD/springBoot-Workshop3-jpa/tree/8c166bd39de1c0d00bfe4ac22cca97306ea2d009">{Exception handling - update}</a>, para acessar localmente.
 <p></p>
 
 <p>* Para o RUN utiliza-se o arquivo com nome {CourseApplication.java}</p></h5>
