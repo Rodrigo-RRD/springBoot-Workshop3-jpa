@@ -27,19 +27,13 @@ Projeto java para acesso e utilização do banco de dados.
 
 <h2>Construído</h2>
 
-+ Spring Boot JPA - Framework 
-+ Mavem - Gerente de Dependência 
++ Spring Boot - Framework 
++ Maven - Gerrenciador de Dependência 
 + PostgreSQL database na nuvem
-+ JPA repository
-+ Entidades
-+ Inserçôes
-+ Injeções database seeding
-+ Camada de serviço e registros de componentes
-+ Associação Muitos para muitos
-+ Delete
-+ Atualizações
-+ Tratamento de exceção - update
-+ Logical Layers
++ JPA (Java Persistence API)
++ Injeção de dependencias
++ DDD (Domain Drive Design)
++ Design Pattern (Repository)
 
 <h3>Spring Boot com H2</h3>
 
@@ -65,9 +59,5 @@ Projeto java para acesso e utilização do banco de dados.
 "password": "123456"</p>
 } 
 ```
-
-
-<h2>Colaboração projeto de estudos</h2>
-Projeto realizado como estudo de dependencias e ferramentas orientadas pelo curso da udemy de java com Spring Boot com JPA
 
 ![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)
